@@ -46,9 +46,9 @@ public class CMD_gm implements CommandExecutor {
 
             if(strings.length == 2) {
                 if(player.hasPermission("gbs.gm.other")) {
-                    Player target = Bukkit.getPlayer(strings[0]);
+                    Player target = Bukkit.getPlayer(strings[1]);
 
-                    int gameMode = Integer.valueOf(strings[1]);
+                    int gameMode = Integer.valueOf(strings[0]);
 
                     switch (gameMode) {
                         case 0:
