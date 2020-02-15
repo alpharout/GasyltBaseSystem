@@ -1,0 +1,8 @@
+name: BaseSystem
+author: alphaR0ut
+version: 0.01
+main: de.gasylt.basesystem.main.BaseSystem
+commands:
+  gm:
+    name: gm
+    description: Veraendert deinen Gamemode.
